@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oven_control", "oven_control.csproj", "{A77B3ED5-6BB9-42D9-A94A-6CD3BC7C44BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "..\classes\classes\classes.csproj", "{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A77B3ED5-6BB9-42D9-A94A-6CD3BC7C44BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77B3ED5-6BB9-42D9-A94A-6CD3BC7C44BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77B3ED5-6BB9-42D9-A94A-6CD3BC7C44BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77B3ED5-6BB9-42D9-A94A-6CD3BC7C44BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

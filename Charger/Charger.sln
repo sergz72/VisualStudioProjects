@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charger", "Charger\Charger.csproj", "{4EEAE941-41D5-49EF-935C-F43BE3B1FA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes2", "..\classes2\classes2\classes2.csproj", "{3BA9A514-936C-44B6-8E27-C9A6CF10270C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EEAE941-41D5-49EF-935C-F43BE3B1FA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEAE941-41D5-49EF-935C-F43BE3B1FA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEAE941-41D5-49EF-935C-F43BE3B1FA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEAE941-41D5-49EF-935C-F43BE3B1FA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA9A514-936C-44B6-8E27-C9A6CF10270C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA9A514-936C-44B6-8E27-C9A6CF10270C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA9A514-936C-44B6-8E27-C9A6CF10270C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA9A514-936C-44B6-8E27-C9A6CF10270C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

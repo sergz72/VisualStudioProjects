@@ -1,0 +1,52 @@
+﻿<Window x:Class="gen_freq_meter_level_meter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gen_freq_meter_level_meter"
+        mc:Ignorable="d"
+        Title="Multi function instrument"
+        SizeToContent="WidthAndHeight" Closing="Window_Closing" ResizeMode="CanMinimize">
+  <DockPanel LastChildFill="True">
+    <Menu DockPanel.Dock="Top">
+      <Menu.ItemsPanel>
+        <ItemsPanelTemplate>
+          <DockPanel HorizontalAlignment="Stretch"/>
+        </ItemsPanelTemplate>
+      </Menu.ItemsPanel>
+      <MenuItem Header="File">
+        <MenuItem Header="Exit" Click="miExit_Click"/>
+      </MenuItem>
+      <MenuItem Header="Exit" HorizontalAlignment="Right" Click="miExit_Click"/>
+    </Menu>
+    <StatusBar DockPanel.Dock="Bottom">
+      <Label x:Name="lMessage" Content="Ready"/>
+    </StatusBar>
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <GroupBox Grid.Row="0" Grid.Column="0" Header="Generator - ADUC7129 (0-20.89 MHz)">
+        <local:Generator Grid.Column="0" Grid.Row="0" x:Name="generator1"/>
+      </GroupBox>
+      <GroupBox Grid.Row="1" Grid.Column="0" Header="Generator - AD9958 (channel 0, 0-200 MHz)">
+        <local:Generator Grid.Column="0" Grid.Row="0" x:Name="generator2"/>
+      </GroupBox>
+      <GroupBox Grid.Row="2" Grid.Column="0" Header="Generator - AD9958 (channel 1, 0-200 MHz)">
+        <local:Generator Grid.Column="0" Grid.Row="0" x:Name="generator3"/>
+      </GroupBox>
+      <GroupBox Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Header="Level meter - AD8310">
+        <local:LevelMeter x:Name="meter1" />
+      </GroupBox>
+      <GroupBox Grid.Row="2" Grid.Column="1" Header="Level meter - AD8313" IsEnabled="False">
+        <local:LevelMeter x:Name="meter2" />
+      </GroupBox>
+    </Grid>
+  </DockPanel>
+</Window>

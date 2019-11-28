@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generator_ad9833", "generator_ad9833.csproj", "{F1D000C8-78DA-4558-8CAD-21F1A0B44603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "..\classes\classes\classes.csproj", "{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D000C8-78DA-4558-8CAD-21F1A0B44603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D000C8-78DA-4558-8CAD-21F1A0B44603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D000C8-78DA-4558-8CAD-21F1A0B44603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D000C8-78DA-4558-8CAD-21F1A0B44603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB44497-5C2F-4746-B771-E9C8F0EDC55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<Window x:Class="Charger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Charger"
+        mc:Ignorable="d"
+        Title="Charger" SizeToContent="WidthAndHeight" Closing="Window_Closing" ResizeMode="CanMinimize">
+  <DockPanel LastChildFill="True">
+    <Button Content="Exit" FontSize="50" DockPanel.Dock="Right" Click="ButtonExit_Click" Margin="4"/>
+    <Button Content="Reset" FontSize="50" DockPanel.Dock="Right" Click="ButtonReset_Click" Margin="4"/>
+    <ScrollViewer>
+      <StackPanel>
+        <local:BatteryControl BatteryID="0" x:Name="battery0"/>
+        <local:BatteryControl BatteryID="1" x:Name="battery1"/>
+        <local:BatteryControl BatteryID="2" x:Name="battery2"/>
+      </StackPanel>
+    </ScrollViewer>
+  </DockPanel>
+</Window>

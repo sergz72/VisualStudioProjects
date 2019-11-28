@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:drillironc" x:Class="drillironc.MainWindow"
+        Title="Drill and heater controller" WindowStartupLocation="Manual" SizeToContent="Width" Closing="Window_Closing">
+  <DockPanel LastChildFill="True">
+    <Button Content="Exit" FontSize="50" DockPanel.Dock="Right" Click="ButtonExit_Click" Margin="4"/>
+    <ScrollViewer>
+      <StackPanel>
+        <local:DrillControl x:Name="drill"/>
+        <local:HeaterControl HeaterID="1" x:Name="heater1"/>
+        <local:HeaterControl HeaterID="2" x:Name="heater2"/>
+        <local:HeaterControl HeaterID="3" x:Name="heater3"/>
+      </StackPanel>
+    </ScrollViewer>
+  </DockPanel>
+</Window>
